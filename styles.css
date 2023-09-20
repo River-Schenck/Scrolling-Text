@@ -1,0 +1,25 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800; /* Use the heavy weight of Raleway for boldness */
+    height: 200vh;
+    margin: 0;
+    background-color: #000; /* Background color set to black */
+    color: #fff; /* Text color set to white */
+}
+
+.content {
+    font-size: 200px;
+    transition: font-size 0.2s;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Center align for the subtitle */
+    letter-spacing: 1px;
+}
+
+.subtitle {
+    font-weight: normal;
+    font-size: 24px; /* Static font size for subtitle */
+    margin-top: 20px; /* Some space between main title and subtitle */
+}
